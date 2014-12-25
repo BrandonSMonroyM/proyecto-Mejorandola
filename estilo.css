@@ -11,15 +11,15 @@ header{
 	color: #fff;
 	padding: 0.5em;
 	overflow: hidden;
+	position: relative;
 }
 header figure{
 	float: left;
 }
 header h1{
 	font-size: 1.2em;
-	border:1px solid red;
 	font-weight: normal;
-	margin: 0 70px 0 0;
+	margin: 0.2em 70px 0 0;
 }
 header #logo img{
 	border-right: 1px solid #fff;
@@ -27,7 +27,41 @@ header #logo img{
 	margin-right: 0.5em;
 	width: 52px;
 }
+header #avatar{
+	margin: 0.5em 0.5em 0 0;
+	right: 0;
+	position: absolute;
+	top: 0;
+}
 header #avatar img{
 	width: 55px;
 	border-radius: 50%;
+}
+nav{
+	background: #80BCA3;
+	padding: 0 0.5em;
+	position: relative;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+nav ul #publicar_nav{
+	border: 1px solid red;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+nav ul #publicar_nav a{
+	background: #22BCE0;
+}
+nav ul li{
+	display: inline-block;
+	margin: 0 1em 0 0;
+}
+nav ul li a{
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 0.5em 0;
 }
