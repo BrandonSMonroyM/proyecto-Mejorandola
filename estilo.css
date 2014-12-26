@@ -93,7 +93,9 @@ nav ul li a{
 #contenido .item{
 	background: #ffffff;
 	border-bottom: 3px solid #22BCE0;
-	overflow: hidden;
+	margin-bottom: 3em;
+	min-height: 128px;
+	position: relative;
 }
 #contenido .item .autor_item{
 	color: #aaa;
@@ -101,6 +103,10 @@ nav ul li a{
 #contenido .item .datos_item{
 	margin-top: 1em;
 	text-align: right;
+}
+#contenido .item .datos_item .fecha_item{
+	color: #aaa;
+	margin-right: 1em;
 }
 #contenido .item .datos_item .tag_item{
 	background: #F4502A;
@@ -121,8 +127,23 @@ nav ul li a{
 #contenido .item .titulo_item{
 	font-size: 1.2em;
 	font-style: italic;
+	padding-top: 1em 1em 0 0;
 }
 #contenido .item .titulo_item a{
 	color: #444;
 	text-decoration: none;
+}
+#contenido .item .votacion{
+	background: #ffffff;
+	border-radius: 0 0 0.5em 0.5em; 
+	left: 5%;
+	margin-top: 3px;
+	padding: 0.2em 0.5em;
+	position: absolute;
+	top: 100%;
+	width: 90%;
+}
+#contenido .item .votacion .comentarios_item,
+#contenido .item .votacion .guardar_item {
+	float: right;
 }
