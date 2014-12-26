@@ -71,7 +71,6 @@ audio:not([controls]) {
  */
 
 html {
-    background: #fff; /* 1 */
     color: #000; /* 2 */
     font-size: 100%; /* 3 */
     font-family: sans-serif; /* 4 */
@@ -97,6 +96,7 @@ textarea {
  */
 
 body {
+    background: #eeeeee;
     margin: 0;
 }
 
