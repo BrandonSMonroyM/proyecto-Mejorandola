@@ -57,6 +57,7 @@ header #avatar img{
 }
 nav{
 	background: #80BCA3;
+	box-shadow: rgba(0,0,0,0.7) 0 0 20px 0;
 	padding: 0 0.5em;
 	position: relative;
 }
@@ -136,12 +137,12 @@ nav ul li a{
 #contenido .item .votacion{
 	background: #ffffff;
 	border-radius: 0 0 0.5em 0.5em; 
-	left: 5%;
+	left: 2%;
 	margin-top: 3px;
 	padding: 0.2em 0.5em;
 	position: absolute;
 	top: 100%;
-	width: 90%;
+	width: 95%;
 }
 #contenido .item .votacion .comentarios_item,
 #contenido .item .votacion .guardar_item {
