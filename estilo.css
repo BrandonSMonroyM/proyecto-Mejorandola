@@ -208,3 +208,8 @@ nav ul li a{
 #contenido .item .votacion .guardar_item {
 	float: right;
 }
+@media screen and (max-width: 800px){
+	body{
+		
+	}
+}
